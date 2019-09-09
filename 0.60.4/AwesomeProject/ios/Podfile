@@ -1,0 +1,24 @@
+platform :ios, '9.0'
+source 'https://github.com/xcuYao/PrivatePods.git'
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+
+target 'AwesomeProject' do
+  # Pods for AwesomeProject
+
+  pod 'RNFramework', '0.1.0'
+
+  target 'AwesomeProjectTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end
+
+target 'AwesomeProject-tvOS' do
+  # Pods for AwesomeProject-tvOS
+
+  target 'AwesomeProject-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
