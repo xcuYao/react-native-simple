@@ -4,7 +4,7 @@ RN 使用远程pod集成
 ## 文件说明
 
 0.60.4 📁 对应react-natice [0.60.4](https://github.com/facebook/react-native/releases/tag/v0.60.4) 版本  
-0.61.0-rc.0 📁 对应react-natice [0.61.0-rc.0](https://github.com/facebook/react-native/releases/tag/v0.61.0-rc.0) 版本
+0.61.0-rc.0 📁 对应react-natice [0.61.0-rc.0](https://github.com/facebook/react-native/releases/tag/v0.61.0-rc.0) 版本  
 0.61.0 📁 对应react-natice [0.61.0](https://github.com/facebook/react-native/tree/v0.61.0) 版本
 
 ## 使用说明
@@ -16,7 +16,7 @@ source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 pod 'RNFramework', '0.1.1'
 ```
 ⚠️0.1.0(rn 0.60.4)不支持use_framework!  
-🐙0.1.1(rn 0.61.0-rc.0)支持
+🐙0.1.1(rn 0.61.0-rc.0)支持  
 🐙0.1.2(rn 0.61.0)支持
 
 对于常规的react-native项目 我们一般需要在iOS项目的Podfile中增加类似一堆依赖
@@ -38,6 +38,6 @@ pod 'RNFramework', '0.1.1'
 具体使用参考示例工程
 
 ## 其他
-0.60.4版本不支持use_framework!
-0.61.0-rc.0已解决
+0.60.4版本不支持use_framework!  
+0.61.0-rc.0已解决  
 具体可以参考[讨论](https://github.com/facebook/react-native/issues/25349)，[官方说明](https://github.com/facebook/react-native/releases)
