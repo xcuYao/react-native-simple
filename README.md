@@ -3,10 +3,10 @@ RN 使用远程pod集成
 
 ## 文件说明
 
-0.63.2 📁 对应react-native [0.63.2](https://github.com/facebook/react-native/tree/v0.63.2) 版本
-0.61.0 📁 对应react-native [0.61.0](https://github.com/facebook/react-native/tree/v0.61.0) 版本
-0.61.0-rc.0 📁 对应react-natice [0.61.0-rc.0](https://github.com/facebook/react-native/releases/tag/v0.61.0-rc.0) 版本  
-0.60.4 📁 对应react-natice [0.60.4](https://github.com/facebook/react-native/releases/tag/v0.60.4) 版本  
+0.63.2 📁 对应react-native [0.63.2](https://github.com/facebook/react-native/tree/v0.63.2) 版本  
+0.61.0 📁 对应react-native [0.61.0](https://github.com/facebook/react-native/tree/v0.61.0) 版本  
+0.61.0-rc.0 📁 对应react-natice [0.61.0-rc.0](https://github.com/facebook/react-native/releases/tag/v0.61.0-rc.0) 版本    
+0.60.4 📁 对应react-natice [0.60.4](https://github.com/facebook/react-native/releases/tag/v0.60.4) 版本    
 
 ## 使用说明
 在Podfile中增加如下源和依赖
@@ -16,10 +16,10 @@ source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 
 pod 'RNFramework', '0.1.10'
 ```
-⚠️0.1.0(rn 0.60.4)不支持use_framework!  
-🐙0.1.1(rn 0.61.0-rc.0)支持  
-🐙0.1.2(rn 0.61.0)支持
-🐙0.1.10(rn 0.63.2)支持
+⚠️ 0.1.0(rn 0.60.4)不支持use_framework!    
+🐙 0.1.1(rn 0.61.0-rc.0)支持    
+🐙 0.1.2(rn 0.61.0)支持  
+🐙 0.1.10(rn 0.63.2)支持  
 
 对于常规的react-native项目 我们一般需要在iOS项目的Podfile中增加类似一堆依赖
 ```
